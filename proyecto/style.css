@@ -1,0 +1,20 @@
+a:link{
+    color:hotpink;
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+/* La pseudo clase not sirve para aplicar atributos a los elementos que NO cuentan con la clase mencionada. */
+p:not(.maravillas){ 
+    color: red;
+}
+
+.container div:nth-child(1){
+
+    color: lightblue;
+}
